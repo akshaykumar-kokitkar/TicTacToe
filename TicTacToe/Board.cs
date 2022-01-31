@@ -17,7 +17,7 @@ namespace TicTacToe
         {
             char[] board = new char[10];
 
-            for (int index = 0; index < board.Length; index++)
+            for (int index = 1; index < board.Length; index++)
             {
                 board[index] = ' ';
             }
